@@ -4,7 +4,7 @@
 while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui do wait() end
 -- Constraints: -----------------------|
 local ver = "1.9.9f"
-local cordCode = "as of march 2022, the original creator is uzi#9868"
+local cordCode = "https://discord.gg/d3B7kRQqwJ"
 ---------------------------------------|
 Parents = {[1] = game:GetService("CoreGui"):FindFirstChild("RobloxGui"), [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
 if Parents[1] then
@@ -357,7 +357,7 @@ mt.__namecall = newcclosure(function(self, ...)
 end)
 setreadonly(mt, true)--]]
 
-Stand("CMD-X V2 is in development.", "Please join the discord for development updates.", "You can get the discord invite by using the .discord command.", "", "", "Continue", true)
+Stand("CMD-X V2 is in development.", "Please join the discord for development updates.", "You can get the discord invite by joining https://discord.gg/d3B7kRQqwJ", "", "", "Continue", true)
 while not RunDude do wait() end
 
 wait(.5)
@@ -407,14 +407,14 @@ cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
 	["Heimershinger"] = "Owner",
-	["progamer421minus1"] = "Owner",
+	["Bringe_Dev"] = "Owner",
 	["octoberboy68plus1"] = "Owner",
 	["knifemarks"] = "Owner",
 	["CMD_X"] = "Owner",
 }
 
 DevCords = {
-	"alx#9999";
+	"uzi#9868";
 }
 
 local Donors = {
@@ -428,7 +428,7 @@ local Donors = {
 	["teejay6x"] = "1",
 	["Yarhibol"] = "1",
 	["Schewpid"] = "1",
-	["goresyard"] = "1",
+	["Bringe_Dev"] = "2",
 	["HyperLink3"] = "1",
 	["OFFTheBatter"] = "1",
 	["DisturbedCult"] = "1",
